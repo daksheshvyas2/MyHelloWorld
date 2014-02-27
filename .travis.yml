@@ -15,7 +15,7 @@ addons:
       description: "Your project description here"
     notification_email: daksheshvyas2@outlook.com
     build_command_prepend:
-    build_command:
+    build_command: make -j4
     branch_pattern: master
     
 script:
